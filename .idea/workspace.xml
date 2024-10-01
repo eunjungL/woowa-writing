@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfdd3a25-22af-43ec-abe5-9d1283a9eef4" name="Changes" comment="레벨2 글쓰기 초안 추가" />
+    <list default="true" id="cfdd3a25-22af-43ec-abe5-9d1283a9eef4" name="Changes" comment="레벨2 글쓰기 초안 추가">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +35,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "level2",
+    "git-widget-placeholder": "technical",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -43,6 +45,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="woowa-writing" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="woowa-writing" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +74,9 @@
       <workItem from="1712047406995" duration="1364000" />
       <workItem from="1712073616051" duration="763000" />
       <workItem from="1717563104595" duration="849000" />
+      <workItem from="1718159646331" duration="1506000" />
+      <workItem from="1723551899400" duration="1006000" />
+      <workItem from="1727610891984" duration="1272000" />
     </task>
     <task id="LOCAL-00001" summary="레벨2 글쓰기 초안 추가">
       <option name="closed" value="true" />
