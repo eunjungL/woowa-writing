@@ -22,7 +22,7 @@ two or more threads in a single process access the same memory location concurre
 
 공유 자원에 동시에 접근한다고 어떤 충돌이 발생하는지 감이 잘 안잡힐 수 있으니 예시를 한 번 들어보자. 여러 명의 관리자가 재고 관리 시스템을 이용해 볶음밥을 파는 시나리오를 가정해보자. 이때 공유 자원은 판매 중인 볶음밥의 재고다. 그리고 각 관리자는 개별의 스레드이다.
 
-![img.png](img.png)
+![image](https://github.com/user-attachments/assets/9c51e62f-465d-431f-a0aa-f55598ad3e09)
 
 1. 현재 상황에서 시스템에 등록된 볶음밥의 재고는 5개다.
 2. A 관리자가 볶음밥의 재고가 5개임을 확인한다. 동시에 B 관리자도 볶음밥의 재고가 5개임을 확인한다.
@@ -70,7 +70,7 @@ Optional<Place> place = placeRepository.findByNameAndLatitudeAndLongitude();
 
 위에서 설명했던 데이터 레이스가 기억난다면 바로 정답을 유추할 수 있다. 어떤 상황이 벌어졌는지 순차적으로 확인해보자.
 
-![img_1.png](img_1.png)
+![image](https://github.com/user-attachments/assets/010deeb6-81d4-4d8d-828b-26deba733f38)
 
 1. 두 명의 사용자가 동시에 ‘잠실역’이라는 장소를 등록하려고 한다. 이때 각 사용자가 등록하려는 ‘잠실역’이라는 데이터는 위도, 경도, 장소명이 동일하다.
 2. 현재 DB에는 ‘잠실역’의 장소 정보가 없는 상황이다.
